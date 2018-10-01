@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 130px;
+	background-color: #0c426f;
+	/*float: left;*/
+}
+.logo{
+	width:40%;
+	height: 75px;
+	float: left;
+	margin-left: 20%;
+	color: #dce8f2;
+}
+.logo img{
+	margin-top: 10px;
+	height: 60px;
+	float: left;
+	width: 80px;
+}
+.logo h5{
+	margin-top: 30px;
+	width: 85%;
+	float: right;
+	font-size: 20px;
+}
+.search{
+	float: right;
+	width:20%;
+	height: 75px;
+	margin-right: 20%; 
+}
+hr{
+	border:1px solid #1b5280;
+}
+.search form{
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.search form input{
+	float: left;
+	padding-left: 10px;
+	width: 240px;
+	height: 25px;
+	background: #154c7a;
+    border: 1px solid #154c7a;
+    color: #9dbbd5;
+}
+.search form button{
+	float: left;
+	height: 27px;
+	width: 25px;
+	border: none;
+	background-color: #0a3559;
+	color: #dce8f2;
+}
+.header ul{
+	list-style: none;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.header ul li{
+	line-height: 15px;
+	text-align: center;
+	float: left;
+	position: relative;
+	padding-top: 15px;
+	border-right:1px solid #1b5280;
+	display: inline;
+	width: 12%;
+	height: 38px;
+}
+.header ul li a{
+	color:#eaf1f7;
+	text-decoration: none;
+}
+.header ul li a i{
+	margin-right: 10px;
+}
+.header ul ul{
+	display: none;
+	margin-top: 18px;
+}
+.header ul ul li{
+	padding-left: 5px;
+	text-align: left;
+	margin-left: -23px;
+	background-color: #0c426f;
+	width: 200px;
+}
+.header ul ul li a i{
+	margin-right: 10px;
+	float: right;
+}
+.header ul ul li a:hover{
+	color: #a7c3db !important;
+}
+.header ul li:hover > ul{
+	display: block;
+}
+.header ul ul ul{
+	margin-left: 222px;
+	top: 10px;
+	position: absolute;
+}
+.header ul ul ul li{
+	width: 300px;
+	height: 20px;
+}
+.header ul ul ul ul{
+	margin-left: -250px;
+	top: 50px;
+	position: absolute;
+}
+.header ul ul ul ul li{
+	width: 270px;
+}
+
+#home{
+	border-top: 5px solid #fab700;
+	padding-top: 10px; 
+	background-color: #195383;
+}
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: #0c426f;
+}
+.box{
+	width: 17.5%;
+	height: 200px;
+	float: left;
+}
+.box h2{
+	text-transform: uppercase;
+	margin-top: 10px;
+	color: #d9dee4;
+}
+.box img {
+	margin-top: 20px;
+}
+.box p{
+    color: #6991b7;
+    margin-top: 10px;
+}
+.box .socials{
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #6991b7;
+	font-size: 25px;
+}
+.box .socials2{
+	margin-right: 120px;
+}
+.box h4{
+	color:#d9dee4;
+	margin-left: 20px;
+}
+.box .ietians{
+	width: 70px;
+	height: 55px;
+	margin-left: 30px;
+}
+.box .socials:hover{
+	color:#fab700;
+}
+.box p span{
+	color:white;
+}
+.box p a{
+	    color: #6991b7;
+}
+.box img{
+	height: 100px;
+}
+#feed{
+	margin-left: 15%;
+}
+
+.outermostbox{
+	width: 100%;
+	background-color: #d7e3e3;
+}
+#outerbox{
+	width: 960px;
+	margin-left: 271.5px;
+	margin-right: 271.5px;
+	overflow: hidden;
+}
+#sliderbox{
+	position: relative;
+	width: 5760px;
+	animation-name: slide;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img{
+	float: left;
+}
+@keyframes slide{
+	0%{left: 0;}
+	13.3%{left: 0;}
+	16.3%{left: -960px;}
+	29.9%{left: -960px;}
+	33.2%{left: -1920px;}
+	46.5%{left: -1920px;}
+	49.8%{left: -2880px;}
+	63.1%{left: -2880px;}
+	66.4%{left: -3840px;}
+	79.7%{left: -3840px;}
+	83%{left: -4800px;}
+	96.3%{left: -4800px;}
+	100%{left: -5760px;}
+}
+
+.icons{
+	width: 60%;
+	height: 200px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.icons i{
+	font-size: 50px;
+	width: 50px;
+	height: 60px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-top: 25px;
+	margin-right: 30px;
+	background-color: #f7f0bb;
+	border-radius:  50px; 
+}
+.icons span {
+	display: none;
+}
+.icons span p{
+	width: 80px;
+	text-align:center;
+}
+.fa-book:before,.fa-edit:before,.fa-file-word:before,.fa-users:before,.fa-male:before,.fa-briefcase:before,.fa-money-bill-alt:before,.fa-chart-line:before {
+   font-size: 40px;
+}
+.icons a{
+	color: #666;
+	float: left;
+	text-decoration:none;
+}
+.icons a:hover  span {
+	display: block;
+}
+.icons a:hover i{color:#ffffff;}
+.icons a:hover .i1{background-color: rgba(212, 43, 30,0.6);}
+.icons a:hover .i2{background-color: rgba(212, 43, 30,0.4);}
+.icons a:hover .i3{background-color: rgba(32, 95, 147,0.6);}
+.icons a:hover .i4{background-color: rgba(212, 43, 30,0.2);}
+.icons a:hover .i5{background-color: rgba(92, 145, 82,0.6);}
+.icons a:hover .i6{background-color: rgb(123, 132, 121);}
+.icons a:hover .i7{background-color: rgba(123, 49, 127,0.6);}
+.icons a:hover .i8{background-color: rgba(32, 95, 147,0.4);;}
+#copyright{
+    height: 94px;
+    background-color: #083158;
+    
+}
+#copyright p{
+    text-align: center;
+    padding-top: 64px;
+    color: #6991b7;
+}
+
+.line2{
+	width: 60%;
+    margin-top: 20px;
+    border: 1px solid #CCC;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+#profiles{
+	width: 100%;
+	height: 300px;
+}
+.b1{
+	width: 30%;
+	height: 290px;
+	float: left;
+}
+.bb{
+	margin-left: 20%;
+}
+.ba{
+	margin-right: 20%;
+}
+.chancllor{
+	 margin-left: 50px;
+    float: left;
+}
+.chancllor h5{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.profile{
+	float: right;
+    margin-top: 32px;
+    margin-right: 80px;
+    margin-left: 0;
+}
+.p2{
+	margin-right: 50px;
+}
+.profile h4{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.chancllor #img{
+	width:100px;
+	height:250px;
+}	  
+
+#chancllor{
+    width: 156px;
+}
+.hero{
+	width: 100%;
+	height: 780px;
+}    
+#imglogo{
+    margin-right: 20px;
+    width: 120px;
+    margin-bottom: 10px;
+    float: left;
+}
+#first{
+	width: 40%;
+	height: 780px;
+	margin-left: 10%;
+	float: left;
+}
+#first h5{
+        font-size: 21px;
+        margin-bottom: 20px;
+}
+#social{
+        margin: 29px;
+    margin-left: 85px;
+}
+#second{
+	width: 20%;
+	height: 780px;
+	float: left;
+}
+#second img{
+    margin-bottom: 25px;
+    width: 113px;
+    margin-left: 66px;
+}
+#second #admin{
+	width: 300px;
+	margin-left: 0;
+}
+#second #faculty{
+	width: 300px;
+	margin-left: 0;
+}
+#second h3{
+	margin-bottom: 20px;
+}
+#second h4{
+    font-size: 17px;
+}
+#searchbox{
+    border: 1px solid black;
+    padding: 24px;
+    margin-top: 41px;
+    margin-bottom: 70px;
+
+}
+#searchbox button{
+    background-color: black;
+    color: white;
+    }
+#searchbox button:hover{
+    background-color: blue;
+}
